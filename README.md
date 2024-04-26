@@ -10,9 +10,10 @@ Dataset for "Test pattern prioritization and outlier detection for large-scale I
 
 ## 1. 데이터 구성
 
-데이터셋은 총 11개의 회로와 10개의 패턴으로 구성된다.하나의 데이터셋에 1000개의 회로를 포함한다.
+데이터셋은 총 110장의 wafer로 구성되어 있다.
+11개의 조합회로에 대해 11개의 wafer 단위 데이터로 구성되며, 각 조합회로는 서로 다른 10개의 Fault 발생 확률분포를 가진 wafer 10장으로 구성된다.
 
-![images](https://github.com/EmPasLab/Synthetic-Dataset-for-Adaptive-Testing/master/images/pattern_list.png)
+![images](https://github.com/EmPasLab/Synthetic-Dataset-for-Adaptive-Testing/images/pattern_list.png)
 
 
 1. Cosine: Cosine 함수를 따르는 확률 분포
@@ -38,7 +39,8 @@ Dataset for "Test pattern prioritization and outlier detection for large-scale I
 
 ## 2. 데이터 분할
 
-데이터셋은 총 110K의 회로로 구성된다. 학습에 적용하기 위해 데이터를 Train data 및 Test data로 7:3의 비율로 분할하였다. 
+110장의 wafer가 존재하므로, 총 110K의 회로로 구성된다. 
+인공지능 모델 학습을 위한 Train data 및 Test data는 7:3의 비율로 분할하였다. 
 
 # 3. 데이터 형식(예시)
 '''
