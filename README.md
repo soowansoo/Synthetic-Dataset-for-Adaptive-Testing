@@ -39,7 +39,7 @@ As the semiconductor manufacturing process has been scaling down, the integratio
 
 데이터셋은 총 110K의 회로로 구성된다. 학습에 적용하기 위해 데이터를 Train data 및 Test data로 7:3의 비율로 분할하였다. 
 
-# 데이터 형식(예시)
+## 데이터 형식(예시)
 '''
 0001110000001011001110011001100100000111111 1
 0011110010011001001111000110000100111011010 0
