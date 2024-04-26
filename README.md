@@ -13,7 +13,7 @@ Dataset for "Test pattern prioritization and outlier detection for large-scale I
 데이터셋은 총 110장의 wafer로 구성되어 있다.
 11개의 조합회로에 대해 11개의 wafer 단위 데이터로 구성되며, 각 조합회로는 서로 다른 10개의 Fault 발생 확률분포를 가진 wafer 10장으로 구성된다.
 
-![images](https://github.com/EmPasLab/Synthetic-Dataset-for-Adaptive-Testing/images/pattern_list.png)
+![images](https://github.com/EmPasLab/Synthetic-Dataset-for-Adaptive-Testing/pattern_list.png)
 
 
 1. Cosine: Cosine 함수를 따르는 확률 분포
